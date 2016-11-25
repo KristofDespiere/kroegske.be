@@ -1,0 +1,106 @@
+/*
+ * Combined style sheet for the index pages and the slide pages.
+ */
+
+/* Style for all bodies. */
+body {
+	font-family: Georgia, Times New Roman, Times, serif;
+	font-size: 13px;
+	background-color: black;
+	color: white;
+	margin: 5;
+	scrollbar-3dlight-color: #000000;
+	scrollbar-arrow-color: #D0B050;
+	scrollbar-base-color: #000000;
+	scrollbar-darkshadow-color: #000000;
+	scrollbar-face-color: #504040;
+	scrollbar-highlight-color: #D0B050;
+	scrollbar-shadow-color: #303010;
+	scrollbar-track-color: #000000;
+
+}
+
+/* Style for all table cells. */
+td {
+	font-family: Georgia, Times New Roman, Times, serif;
+	font-size: 10px;
+}
+
+/* Put a border on all generated images */
+.image {
+	border-width: 0;
+	border-color: black;
+	border-style: solid;
+	margin: 2;
+}
+
+.nav {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.googleindex {
+	/* font-family: Courier New, Courier, mono; */
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.slidetitle
+{
+	font-size: 18px;
+	padding-bottom: 2;
+	padding-top: 2;
+	padding-right: 5;
+	padding-left: 5;
+}
+
+
+/* Align the content of the cells on the index pages to the center. */
+#index td {
+	text-align: center;
+}
+
+/* Remove the margin under the images on the index pages. */
+#index .image {
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+}
+
+
+/* Highlight the image name on the slide pages. */
+#slide .name {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+/* Header */
+h1 {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+/* Custom link styles */
+a:active {
+	text-decoration: none;
+	color: #FF0000
+}
+
+a:visited {
+	text-decoration: none;
+	color: #A0A000
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #FFFF00
+}
+
+a:link {
+	text-decoration: none;
+	color: #FFA000
+}
+
+#imageinfo {
+	visibility: hidden;
+}
